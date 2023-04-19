@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FF7979;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.container h1 {
+    position: absolute;
+    top: 250px;
+    right: 1010px;
+    font-size: 70px;
+    color: white;
+}
+
+.container h5 {
+    position: absolute;
+    top: 450px;
+    right: 1020px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+}
+
+#button-buy {
+    position: absolute;
+    top: 150px;
+    right: 260px;
+
+    background-color: #5E54A4;
+    border: none;
+    border-radius: 5px;
+    height: 7%;
+    width: 30%;
+    cursor: pointer;
+
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.container-form {
+    position: absolute;
+    top: 250px;
+    right: 260px;
+    width: 30%;
+    height: 50%;
+    font-size: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-group {
+    flex-direction: column;
+    padding-left: 60px;
+}
+
+input {
+    width: 85%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+#button-form {
+    position: absolute;
+    top: 370px;
+    right: 74px;
+
+    background-color: #38CC8B;
+    border: none;
+    border-radius: 5px;
+    height: 10%;
+    width: 77%;
+    cursor: pointer;
+
+    color: white;
+    font-size: 17px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-top: 2px;
+}
+
+#text-under-button {
+    position: absolute;
+    left: 100px;
+    bottom: 27px;
+    color: gray;
+    font-size: 12px;
+}
+
+span {
+    position: absolute;
+    left: 60px;
+    bottom: 365px;
+    font-size: 12px;
+}
+
+#erro-nome {
+    position: absolute;
+    left: 60px;
+    bottom: 372px;
+    font-size: 12px;
+}
+
+#erro-sobrenome {
+    position: absolute;
+    left: 60px;
+    bottom: 290px;
+    font-size: 12px;
+}
+
+#erro-email {
+    position: absolute;
+    left: 60px;
+    bottom: 205px;
+    font-size: 12px;
+}
+
+#erro-senha {
+    position: absolute;
+    left: 60px;
+    bottom: 120px;
+    font-size: 12px;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="images/bg-intro-desktop.png" alt="photo-background">
+
+    <h1>Learn to code by<br>
+      watching others</h1>
+
+    <h5>See how experienced developers solve problems in real-time. <br>
+      Watching scripted tutorial is great, but understading how<br>
+      developers think is invaluable.</h5>
+  </div>
+
+  <button id="button-buy"><b style="color: white;">Try it free 7 days</b> then $20/mo. thereafter</button>
+
+  <div class="container-form">
+    <form method="post" onSubmit= validarLogin()>
+      <div class="form-group">
+        <input type="text" id="nome" placeholder="First Name">
+        <span id="erro-nome"></span>
+
+        <input type="text" id="sobrenome" placeholder="Last Name">
+        <span id="erro-sobrenome"></span>
+
+        <input type="email" id="email" placeholder="Email Adress">
+        <span id="erro-email"></span>
+
+        <input type="password" id="senha" placeholder="Password">
+        <span id="erro-senha"></span>
+
+        <button id="button-form" ><b>Claim your free trial</b></button>
+        <p>
+        <h5 id="text-under-button">By clicking the button, you are agreeing to our <b style="color: red;">Terms and
+            Services</b></h5>
+        </p>
+      </div>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
